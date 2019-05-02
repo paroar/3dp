@@ -1,5 +1,5 @@
 body{
-	font-family: calibri;
+	font-family: calibri, sans;
 	background: #f1f1f1;
 }
 
@@ -265,7 +265,7 @@ select{
 	background-color: #34a853;
 	position: absolute;
 	top: 39%;
-	margin-top: 20px;
+	margin-top: 57px;
 }
 
 .download i{

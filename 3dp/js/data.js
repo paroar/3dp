@@ -12,18 +12,6 @@ var jsonString = [
             "_category": "Engineering"
          },
          {
-            "title": "Collapsible basket",
-            "description": "This basket prints in place as one part and doesn’t require any supports. It prints flat but folds it into a basket!<br><br>This is a remix of the first collapsing basket I designed, that version uses a wood cutting trick where you make a spiral cut on an angle and the flexibility of the material allows it to form the basket. The angle of the spiral cut interlocks the walls of the basket in one direction. It was cool how this can be accomplished with a saw and some wood but I have a 3D printer and some plastic so I thought I would use some of the advantages a 3D printer has to offer.",
-            "date": {
-               "month": "6",
-               "year": "2018"
-            },
-            "downloads": "1000",
-            "img": "../xml/img/Collapsible_basket/images/1.jpg",
-            "file": "../xml/img/Collapsible_basket/Collapsible_Basket_optimized_.zip",
-            "_category": "Households"
-         },
-         {
             "title": "Greek Lamp",
             "description": "Lamp with Ancient Greek meander patterns. Somewhat easy print since it's printed flat, and scalable to fit smaller beds.",
             "date": {

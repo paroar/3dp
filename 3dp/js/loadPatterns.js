@@ -119,6 +119,7 @@ function patternLoad(){
 	
 	var title1 = document.createElement("p");
 	var value = object.title;
+    console.log(value);
 	value = value.toUpperCase();
 	title1.innerHTML = "<b>" + value + "</b>";
 	myDivText.appendChild(title1);
@@ -132,7 +133,6 @@ function patternLoad(){
 	button.setAttribute("class","download");
 	button.innerHTML = 'Download <i class="fa fa-download"></i>';
 	myDivText.appendChild(button);
-	document.cookie = '';
 }
 
 var count = 1;
