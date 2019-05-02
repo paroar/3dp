@@ -104,9 +104,11 @@ function removeOptions(event){
 function createCookie(event){
 	var value = event.target.getAttribute('value');
 	document.cookie = value;
+alert(document.cookie);
 }
 
 function patternLoad(){
+alert(document.cookie);
 	var object = {};
 	for (var i = array.length - 1; i >= 0; i--) {
 		if(array[i].title==document.cookie){
@@ -124,6 +126,7 @@ function patternLoad(){
 	
 	var title1 = document.createElement("p");
 	var value = object.title;
+    console.log(value);
 	value = ""+value.toUpperCase();
 	title1.innerHTML = "<b>" + value + "</b>";
 	myDivText.appendChild(title1);
