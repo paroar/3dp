@@ -124,7 +124,7 @@ function patternLoad(){
 	
 	var title1 = document.createElement("p");
 	var value = object.title;
-	value = value.toUpperCase();
+	value = ""+value.toUpperCase();
 	title1.innerHTML = "<b>" + value + "</b>";
 	myDivText.appendChild(title1);
 
