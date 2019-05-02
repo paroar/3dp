@@ -258,9 +258,7 @@ var jsonStringIndex = [
          },         
          {
             "title": "Cable management",
-            "description": "My desktop is always a mess, full of cables everywhere. I created this little cable holder hive. It is meant to be used with small cables, but you can always scale it. Enjoy.
-
-",
+            "description": "My desktop is always a mess, full of cables everywhere. I created this little cable holder hive. It is meant to be used with small cables, but you can always scale it. Enjoy.",
             "date": {
                "month": "7",
                "year": "2017"
