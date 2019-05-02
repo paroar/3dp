@@ -111,7 +111,7 @@ function createCookie(event){
 function patternLoad(){
     var aux = document.cookie.split(";");
     if(aux.length > 1){
-        aux = aux[1].substring(1);
+        aux = aux[0];
     }
 	var object = {};
 	for (var i = array.length - 1; i >= 0; i--) {
@@ -143,8 +143,7 @@ function patternLoad(){
 	button.setAttribute("class","download");
 	button.innerHTML = 'Download <i class="fa fa-download"></i>';
 	myDivText.appendChild(button);
-    document.cookie = 'expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
-    console.log("borrado de cookies"+document.cookie);
+    document.cookie = ';';
 }
 
 var count = 1;
