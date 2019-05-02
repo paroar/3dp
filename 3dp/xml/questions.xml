@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/xsl" href="questions.xsl"?>
+<questions>
+
+	<question>
+		<h2>
+		  What is 3D printing?
+		</h2>
+		<answer>
+		  <p>
+		  3D printing is the automated process of building a three-dimensional object by adding material rather than taking material away (as in drilling or machining). The process, also known as additive manufacturing, was first introduced in the late 1980s. It was first commercially used as a rapid prototyping method in the aerospace and automotive industries.
+		  </p>
+		</answer>
+		
+  </question>
+		
+  <question>
+    <h2>
+      How does 3D printing work?
+		</h2>
+		<answer>
+		  <p>
+		  To create a 3D printed object, you use an additive process The three-dimensional object is created by laying down successive layers of material until the object is finished.
+		  </p>
+		</answer>
+	</question>
+
+  <question>
+    <h2>
+      What is 3D printing good for?
+		</h2>
+		<answer>
+		  <p>
+		  Whether you need a frame for your drone project, simply a door stopper or anything else in between, you can 3D print it. 3D printing is good for making your life easier with simple hacks and ideas. As of November 2016, there are estimated 2 million 3D print files in 3D repositories for you to download.
+		  </p>
+		  <p>
+		  On the industrial side of things, 3D printing has enabled different industries, from the healthcare to the automotive industry, to do things never before possible and bring products to the market much faster.
+		  </p>
+		  <p>
+		  One spectacular area where 3D printing excels is in the medical area. Custom-built prostheses, 3D printed tissue are becoming more common in labs.
+		  </p>
+		</answer>
+	</question>
+	
+	  <question>
+    <h2>
+      What are the benefits of 3D printing?
+		</h2>
+		<answer>
+		  <p>Like most emerging technologies, 3D printing offers benefits in a lot of areas. These include improvements in financial, logistical, healthcare, creative and environmental areas.</p>
+		  <p>For one, the technology allows for endless customization with regards to design and material. One notable example of this benefit is in the healthcare sector. Complex prosthetic limbs can be produced precisely to individual needs for a much lower price.</p>
+		  <p>In the area of aerospace, complex parts that take a long time to assemble can now be 3D printed in one go. This speeds up the assembly line and reduces the cost of the finished product. Also, mass production in higher numbers is made possible.</p>
+		  <p>3D printing enables designers to rapid prototype, ultimately saving time in the design process. This allows new or improved products to hit the market much sooner than with conventional means.
+</p>
+		  <p>3D printers are portable. That allows end products or components to be 3D printed where and when they are needed and thereby lowering or eliminating inventory needs. Satellites, for example, will most likely be 3D printed in space in the future.</p>
+		  <p>Since 3D printing utilizes the concept of adding material rather than subtracting material, the process leaves behind little to no waste. Although materials used in conventional manufacturing methods are recyclable, the process of recycling materials costs money that can be saved with 3D printing.</p>
+		</answer>
+	</question>
+	
+	  <question>
+    <h2>
+      What are the limitations of 3D printing?
+		</h2>
+		<answer>
+		<p>Although it is already deeply implemented in the world of prototyping, 3D printing is still some years away from having a breakthrough in the world of manufacturing. This breakthrough would allow 3D printing to spread from just prototyping, with the exception of select components already being manufactured by 3D printers, to being widely implemented in everyday manufacturing processes all over the world.</p>
+		<p>The main aspect keeping this from happening sooner is the relatively long time it takes to 3D print something that can just as well be manufactured using traditional methods (and we all know that time means money).</p>
+		<p>3D printing is also limited by the size of the 3D printer. Although there are some pretty big units 3D printing with cement, for example, high-quality and precision parts are limited to smaller machines which can also be very expensive depending on what they are designed to be capable of.</p>
+		<p>Another limitation is the fact that most 3D printers can only print in one material at a time. Multi-material 3D printers do exist, though, but are not very common yet.</p>
+		</answer>
+	</question>
+	
+</questions>
