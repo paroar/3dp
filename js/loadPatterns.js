@@ -107,9 +107,7 @@ function createCookie(event){
 }
 
 function patternLoad(){
-alert(document.cookie);
     var aux = document.cookie.split(';');
-alert(aux);
     aux = aux[1];
 alert(aux);
 	var object = {};
@@ -118,6 +116,7 @@ alert(aux);
 				object = array[i];
 		}
 	}
+	alert(object);
 
 	var myDivPattern = document.getElementById("photo");
 	var myDivText = document.getElementById("description");
