@@ -114,6 +114,7 @@ function patternLoad(){
 	for (var i = array.length - 1; i >= 0; i--) {
 		if(array[i].title==aux){
 				object = array[i];
+		}	
 	}
 
 	var myDivPattern = document.getElementById("photo");
