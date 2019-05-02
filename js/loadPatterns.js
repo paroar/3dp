@@ -112,9 +112,10 @@ function patternLoad(){
 alert(document.cookie);
     var aux = document.cookie.split(';');
     aux = aux[1];
+alert(aux);
 	var object = {};
 	for (var i = array.length - 1; i >= 0; i--) {
-		if(array[i].title==document.cookie){
+		if(array[i].title==aux){
 				object = array[i];
 		}
 	}
