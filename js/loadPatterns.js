@@ -103,6 +103,7 @@ function removeOptions(event){
 
 function createCookie(event){
 	var value = event.target.getAttribute('value');
+alert(value);
 	document.cookie = value;
 alert(document.cookie);
 }
