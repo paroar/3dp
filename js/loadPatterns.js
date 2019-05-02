@@ -15,12 +15,14 @@ function orderByLateDate(param){
 			return 0;
 		}
 	});
+document.cookie = '';
 }
 
 function orderByDownloads(param){
 	param.sort(function(a,b){
 		return b.downloads-a.downloads;
 	});
+    document.cookie = '';
 }
 
 function loadPatterns(num,select,param,flag){
@@ -65,22 +67,26 @@ function loadPatterns(num,select,param,flag){
 		var myDiv = document.getElementById(select);
 		myDiv.appendChild(div);
  	}
+document.cookie = '';
 }
 
 function myOnloadIndex(){
 	loadPatterns(4,"popular",arrayIndex,true);
 	loadPatterns(8,"recent",arrayIndex,true);
+    document.cookie = '';
 }
 
 function loadPatternsAll(){
 	loadPatterns(array.length,"subcontent",array,false);
 	removeOptions("categories");
 	onLoad();
+    document.cookie = '';
 }
 
 function onLoad(){
 	var arrayca = ["Engineering","Educational","Households","Toys","Others"];
 	addOptions("categories",arrayca);
+    document.cookie = '';
 }
 
 function addOptions(domElement,array){
@@ -92,6 +98,7 @@ function addOptions(domElement,array){
 		option.value = array[value];
 		select.add(option);
 	}
+    document.cookie = '';
 }
 
 function removeOptions(event){
@@ -109,9 +116,8 @@ function createCookie(event){
 }
 
 function patternLoad(){
-    var aux;
-    if(document.cookie.length > 0){
-        aux = document.cookie.split(";");
+    var aux = document.cookie.split(";");
+    if(aux.length > 1){
         aux = aux[1].substring(1);
     }
 	var object = {};
@@ -157,4 +163,5 @@ function sig(){
 	var imagen = document.getElementsByTagName("img")[0];
 	var nuevasrc = imagen.getAttribute("src").replace(/[0-9]/,count);
 	imagen.src = nuevasrc;
+    document.cookie = '';
 }
