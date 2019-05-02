@@ -16,9 +16,9 @@ var jsonString = [
             "description": "After seeing some typefaces designed with Braille in mind I decided to take it on to try and create a new one that extrudes a custom 2d typeface with braille embedded on top. I created the letter forms in Adobe illustrator then imported svgs in blender to extrude and shape.",
             "date": {
                "month": "7",
-               "year": "2017"
+               "year": "2015"
             },
-            "downloads": "2949",
+            "downloads": "949",
             "img": "../xml/img/Braille_Table/images/1.jpg",
             "file": "../xml/img/Braille_Table/Braille_Table.zip",
             "_category": "Households"
@@ -31,7 +31,7 @@ var jsonString = [
                "year": "2017"
             },
             "downloads": "2949",
-            "img": "../xml/img/Cable_Management/1.jpg",
+            "img": "../xml/img/Cable_Management/images/1.jpg",
             "file": "../xml/img/Cable_Management/Cable_Management.zip",
             "_category": "Others"
          },         
@@ -43,7 +43,7 @@ var jsonString = [
                "year": "2015"
             },
             "downloads": "68949",
-            "img": "../xml/img/Subaru_Engine/1.jpg",
+            "img": "../xml/img/Subaru_Engine/images/1.jpg",
             "file": "../xml/img/Subaru_Engine/Subaru_Engine.zip",
             "_category": "Engineering"
          },
@@ -249,9 +249,9 @@ var jsonStringIndex = [
             "description": "After seeing some typefaces designed with Braille in mind I decided to take it on to try and create a new one that extrudes a custom 2d typeface with braille embedded on top. I created the letter forms in Adobe illustrator then imported svgs in blender to extrude and shape.",
             "date": {
                "month": "7",
-               "year": "2017"
+               "year": "2015"
             },
-            "downloads": "2949",
+            "downloads": "949",
             "img": "xml/img/Braille_Table/images/1.jpg",
             "file": "xml/img/Braille_Table/Braille_Table.zip",
             "_category": "Households"
@@ -264,7 +264,7 @@ var jsonStringIndex = [
                "year": "2017"
             },
             "downloads": "2949",
-            "img": "xml/img/Cable_Management/1.jpg",
+            "img": "xml/img/Cable_Management/images/1.jpg",
             "file": "xml/img/Cable_Management/Cable_Management.zip",
             "_category": "Others"
          },
@@ -422,7 +422,7 @@ var jsonStringIndex = [
                "year": "2015"
             },
             "downloads": "68949",
-            "img": "xml/img/Subaru_Engine/1.jpg",
+            "img": "xml/img/Subaru_Engine/images/1.jpg",
             "file": "xml/img/Subaru_Engine/Subaru_Engine.zip",
             "_category": "Engineering"
          },
