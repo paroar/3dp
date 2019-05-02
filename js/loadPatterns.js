@@ -111,6 +111,7 @@ alert(document.cookie);
 function patternLoad(){
 alert(document.cookie);
     var aux = document.cookie.split(';');
+alert(aux);
     aux = aux[1];
 alert(aux);
 	var object = {};
