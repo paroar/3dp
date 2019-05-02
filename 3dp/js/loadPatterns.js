@@ -1,4 +1,5 @@
 var array = JSON.parse(jsonString);
+var arrayIndex = JSON.parse(jsonStringIndex);
 
 function orderByLateDate(){
 	array.sort(function(a,b){
@@ -61,9 +62,53 @@ function loadPatterns(num,select){
  	}
 }
 
+function loadPatternsIndex(num,select){
+	if(select=="recent"){
+		orderByLateDate();
+	}else{
+		orderByDownloads();
+	}
+	for (var i = num-1; i >= 0; i--) {
+		var div = document.createElement("div");
+		div.setAttribute("id","pattern");
+		div.setAttribute("class","pattern");
+		div.setAttribute("onclick","createCookie(event)")
+		var value = arrayIndex[i]._category;
+		div.setAttribute("value",value);
+		var title = arrayIndex[i].title.replace(" ","");
+		title = title.toLowerCase();
+		div.setAttribute("name",title);
+
+		var divImg = document.createElement("div");
+		var aImg = document.createElement("a");
+		var img = document.createElement("img");
+		aImg.setAttribute("href","html/pattern.html");
+		img.setAttribute("value",arrayIndex[i].title);
+		img.setAttribute("src",arrayIndex[i].img);
+		divImg.appendChild(aImg);
+		aImg.appendChild(img);
+
+		var divTitle = document.createElement("div");
+		var aImg = document.createElement("a");
+		divTitle.appendChild(aImg);
+		aImg.innerHTML = arrayIndex[i].title;
+		
+		div.appendChild(divImg);
+		div.appendChild(divTitle);
+
+		var myDiv = document.getElementById(select);
+		myDiv.appendChild(div);
+ 	}
+}
+
 function myOnload(){
 	loadPatterns(4,"popular");
 	loadPatterns(8,"recent");
+}
+
+function myOnloadIndex(){
+	loadPatternsIndex(4,"popular");
+	loadPatternsIndex(8,"recent");
 }
 
 function loadPatternsAll(){
@@ -119,7 +164,6 @@ function patternLoad(){
 	
 	var title1 = document.createElement("p");
 	var value = object.title;
-    console.log(value);
 	value = value.toUpperCase();
 	title1.innerHTML = "<b>" + value + "</b>";
 	myDivText.appendChild(title1);
@@ -133,6 +177,7 @@ function patternLoad(){
 	button.setAttribute("class","download");
 	button.innerHTML = 'Download <i class="fa fa-download"></i>';
 	myDivText.appendChild(button);
+	document.cookie = '';
 }
 
 var count = 1;
