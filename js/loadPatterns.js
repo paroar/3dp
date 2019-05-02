@@ -110,7 +110,7 @@ function createCookie(event){
 
 function patternLoad(){
     var aux;
-    if(document.cookie.length != 0){
+    if(document.cookie.length > 0){
         aux = document.cookie.split(";");
         aux = aux[1].substring(1);
     }
