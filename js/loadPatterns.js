@@ -104,8 +104,8 @@ function removeOptions(event){
 }
 
 function createCookie(event){
-    document.cookie = '';
 	var value = event.target.getAttribute('value');
+    document.cookie = value;
 }
 
 function patternLoad(){
@@ -144,6 +144,7 @@ function patternLoad(){
 	button.innerHTML = 'Download <i class="fa fa-download"></i>';
 	myDivText.appendChild(button);
     document.cookie = 'expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
+    console.log("borrado de cookies"+document.cookie);
 }
 
 var count = 1;
