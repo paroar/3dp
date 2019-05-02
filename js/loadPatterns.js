@@ -101,10 +101,10 @@ function loadPatternsIndex(num,select){
  	}
 }
 
-function myOnload(){
+/*function myOnload(){
 	loadPatterns(4,"popular");
 	loadPatterns(8,"recent");
-}
+}*/
 
 function myOnloadIndex(){
 	loadPatternsIndex(4,"popular");
@@ -177,7 +177,6 @@ function patternLoad(){
 	button.setAttribute("class","download");
 	button.innerHTML = 'Download <i class="fa fa-download"></i>';
 	myDivText.appendChild(button);
-	document.cookie = '';
 }
 
 var count = 1;
