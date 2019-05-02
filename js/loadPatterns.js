@@ -140,6 +140,7 @@ alert(document.cookie);
 	button.setAttribute("class","download");
 	button.innerHTML = 'Download <i class="fa fa-download"></i>';
 	myDivText.appendChild(button);
+    document.cookie = '';
 }
 
 var count = 1;
