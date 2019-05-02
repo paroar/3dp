@@ -109,9 +109,11 @@ function createCookie(event){
 }
 
 function patternLoad(){
+    var aux = document.cookie.split(;);
+    aux = aux[1];
 	var object = {};
 	for (var i = array.length - 1; i >= 0; i--) {
-		if(array[i].title==document.cookie){
+		if(array[i].title==document.cookie || array[i].title==aux){
 			object = array[i];
 		}	
 	}
@@ -139,7 +141,7 @@ function patternLoad(){
 	button.setAttribute("class","download");
 	button.innerHTML = 'Download <i class="fa fa-download"></i>';
 	myDivText.appendChild(button);
-    	document.cookie = '';
+    document.cookie = '';
 }
 
 var count = 1;
