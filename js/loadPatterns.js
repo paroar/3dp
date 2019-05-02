@@ -24,6 +24,7 @@ function orderByDownloads(param){
 }
 
 function loadPatterns(num,select,param,flag){
+    document.cookie = '';
 	if(select=="recent"){
 		orderByLateDate(param);
 	}else{
@@ -102,6 +103,7 @@ function removeOptions(event){
 }
 
 function createCookie(event){
+    document.cookie = '';
 	var value = event.target.getAttribute('value');
 	document.cookie = value;
 }
