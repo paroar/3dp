@@ -110,6 +110,8 @@ function patternLoad(){
     var aux = document.cookie.split(';');
     aux = aux[1];
 	var object = {};
+	console.log(document.cookie);
+	console.log(aux);
 	console.log(array.length);
 	for (var i = array.length - 1; i >= 0; i--) {
 		if(array[i].title==aux){
