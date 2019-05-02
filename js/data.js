@@ -12,6 +12,54 @@ var jsonString = [
             "_category": "Engineering"
          },
          {
+            "title": "Braille Table",
+            "description": "After seeing some typefaces designed with Braille in mind I decided to take it on to try and create a new one that extrudes a custom 2d typeface with braille embedded on top. I created the letter forms in Adobe illustrator then imported svgs in blender to extrude and shape.",
+            "date": {
+               "month": "7",
+               "year": "2017"
+            },
+            "downloads": "2949",
+            "img": "../xml/img/Braille_Table/images/1.jpg",
+            "file": "../xml/img/Braille_Table/Braille_Table.zip",
+            "_category": "Households"
+         },         
+         {
+            "title": "Cable management",
+            "description": "My desktop is always a mess, full of cables everywhere. I created this little cable holder hive. It is meant to be used with small cables, but you can always scale it. Enjoy.",
+            "date": {
+               "month": "7",
+               "year": "2017"
+            },
+            "downloads": "2949",
+            "img": "../xml/img/Cable_Management/1.jpg",
+            "file": "../xml/img/Cable_Management/Cable_Management.zip",
+            "_category": "Others"
+         },         
+         {
+            "title": "Subaru engine",
+            "description": "This engine is slightly harder to print and assemble than my Toyota 22RE engine. So it is best to print or familiarize yourself with my previous models if you choose to print this one. The scale is once again 35% of the original which seems to be a good size for printing and finding fasteners that work and look right. The tolerances are a little tighter and depending on your printer the crankshaft might take some tweaking to get it right so that there is not interference while rotating.",
+            "date": {
+               "month": "7",
+               "year": "2015"
+            },
+            "downloads": "68949",
+            "img": "../xml/img/Subaru_Engine/1.jpg",
+            "file": "../xml/img/Subaru_Engine/Subaru_Engine.zip",
+            "_category": "Engineering"
+         },
+         {
+            "title": "Headphone Stand",
+            "description": "The MakerBot Headphone Stand went through the same design process used in professional design and engineering industries. Multiple design iterations and 3D prints led to the final fully 3D printable headphone stand. ",
+            "date": {
+               "month": "4",
+               "year": "2017"
+            },
+            "downloads": "2949",
+            "img": "../xml/img/Headphone_Stand/images/1.jpg",
+            "file": "../xml/img/Headphone_Stand/Headphone_Stand.zip",
+            "_category": "Households"
+         },
+         {
             "title": "Mounting System",
             "description": "This project is a mounting system for phones and lightweight cameras.",
             "date": {
@@ -195,6 +243,32 @@ var jsonStringIndex = [
             "img": "xml/img/Jet_Engine/images/1.jpg",
             "file": "xml/img/Jet_Engine/3D_Printable_Jet_Engine.zip",
             "_category": "Engineering"
+         },         
+         {
+            "title": "Braille Table",
+            "description": "After seeing some typefaces designed with Braille in mind I decided to take it on to try and create a new one that extrudes a custom 2d typeface with braille embedded on top. I created the letter forms in Adobe illustrator then imported svgs in blender to extrude and shape.",
+            "date": {
+               "month": "7",
+               "year": "2017"
+            },
+            "downloads": "2949",
+            "img": "xml/img/Braille_Table/images/1.jpg",
+            "file": "xml/img/Braille_Table/Braille_Table.zip",
+            "_category": "Households"
+         },         
+         {
+            "title": "Cable management",
+            "description": "My desktop is always a mess, full of cables everywhere. I created this little cable holder hive. It is meant to be used with small cables, but you can always scale it. Enjoy.
+
+",
+            "date": {
+               "month": "7",
+               "year": "2017"
+            },
+            "downloads": "2949",
+            "img": "xml/img/Cable_Management/1.jpg",
+            "file": "xml/img/Cable_Management/Cable_Management.zip",
+            "_category": "Others"
          },
          {
             "title": "Greek Lamp",
@@ -341,6 +415,18 @@ var jsonStringIndex = [
             "img": "xml/img/Honeycomb_Vase/images/1.jpg",
             "file": "xml/img/Honeycomb_Vase/Curved_honeycomb_vase.zip",
             "_category": "Households"
+         },
+         {
+            "title": "Subaru engine",
+            "description": "This engine is slightly harder to print and assemble than my Toyota 22RE engine. So it is best to print or familiarize yourself with my previous models if you choose to print this one. The scale is once again 35% of the original which seems to be a good size for printing and finding fasteners that work and look right. The tolerances are a little tighter and depending on your printer the crankshaft might take some tweaking to get it right so that there is not interference while rotating.",
+            "date": {
+               "month": "7",
+               "year": "2015"
+            },
+            "downloads": "68949",
+            "img": "xml/img/Subaru_Engine/1.jpg",
+            "file": "xml/img/Subaru_Engine/Subaru_Engine.zip",
+            "_category": "Engineering"
          },
          {
             "title": "Chainmail",
