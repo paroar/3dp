@@ -109,14 +109,12 @@ function createCookie(event){
 function patternLoad(){
     var aux = document.cookie.split(';');
     aux = aux[1];
-alert(aux);
 	var object = {};
+	console.log(array.length);
 	for (var i = array.length - 1; i >= 0; i--) {
 		if(array[i].title==aux){
 				object = array[i];
-		}
 	}
-	alert(object);
 
 	var myDivPattern = document.getElementById("photo");
 	var myDivText = document.getElementById("description");
@@ -128,7 +126,6 @@ alert(aux);
 	
 	var title1 = document.createElement("p");
 	var value = object.title;
-    console.log(value);
 	value = ""+value.toUpperCase();
 	title1.innerHTML = "<b>" + value + "</b>";
 	myDivText.appendChild(title1);
@@ -142,7 +139,7 @@ alert(aux);
 	button.setAttribute("class","download");
 	button.innerHTML = 'Download <i class="fa fa-download"></i>';
 	myDivText.appendChild(button);
-    document.cookie = '';
+    	document.cookie = '';
 }
 
 var count = 1;
