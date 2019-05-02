@@ -15,14 +15,12 @@ function orderByLateDate(param){
 			return 0;
 		}
 	});
-document.cookie = '';
 }
 
 function orderByDownloads(param){
 	param.sort(function(a,b){
 		return b.downloads-a.downloads;
 	});
-    document.cookie = '';
 }
 
 function loadPatterns(num,select,param,flag){
@@ -67,7 +65,6 @@ function loadPatterns(num,select,param,flag){
 		var myDiv = document.getElementById(select);
 		myDiv.appendChild(div);
  	}
-document.cookie = '';
 }
 
 function myOnloadIndex(){
@@ -80,13 +77,11 @@ function loadPatternsAll(){
 	loadPatterns(array.length,"subcontent",array,false);
 	removeOptions("categories");
 	onLoad();
-    document.cookie = '';
 }
 
 function onLoad(){
 	var arrayca = ["Engineering","Educational","Households","Toys","Others"];
 	addOptions("categories",arrayca);
-    document.cookie = '';
 }
 
 function addOptions(domElement,array){
@@ -98,7 +93,6 @@ function addOptions(domElement,array){
 		option.value = array[value];
 		select.add(option);
 	}
-    document.cookie = '';
 }
 
 function removeOptions(event){
@@ -112,7 +106,6 @@ function removeOptions(event){
 function createCookie(event){
     document.cookie = '';
 	var value = event.target.getAttribute('value');
-	document.cookie = value;
 }
 
 function patternLoad(){
@@ -150,7 +143,7 @@ function patternLoad(){
 	button.setAttribute("class","download");
 	button.innerHTML = 'Download <i class="fa fa-download"></i>';
 	myDivText.appendChild(button);
-    document.cookie = '';
+    document.cookie = 'expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
 }
 
 var count = 1;
@@ -163,5 +156,4 @@ function sig(){
 	var imagen = document.getElementsByTagName("img")[0];
 	var nuevasrc = imagen.getAttribute("src").replace(/[0-9]/,count);
 	imagen.src = nuevasrc;
-    document.cookie = '';
 }
