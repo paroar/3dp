@@ -109,7 +109,7 @@ function createCookie(event){
 }
 
 function patternLoad(){
-    var aux = document.cookie.split(;);
+    var aux = document.cookie.split(";");
     aux = aux[1];
 	var object = {};
 	for (var i = array.length - 1; i >= 0; i--) {
