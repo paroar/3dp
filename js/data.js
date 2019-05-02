@@ -120,18 +120,6 @@ var jsonString = [
             "_category": "Toys"
          },
          {
-            "title": "Headphone Stand",
-            "description": "The MakerBot Headphone Stand went through the same design process used in professional design and engineering industries. Multiple design iterations and 3D prints led to the final fully 3D printable headphone stand. ",
-            "date": {
-               "month": "4",
-               "year": "2017"
-            },
-            "downloads": "2949",
-            "img": "../xml/img/Headphone_Stand/images/1.jpg",
-            "file": "../xml/img/Headphone_Stand/Headphone_Stand.zip",
-            "_category": "Households"
-         },
-         {
             "title": "Easter Eggs",
             "description": "Let me introduce you my beautiful easter eggs collection. All of them are easy to print, fixed, flatted and ready to slice! ",
             "date": {
