@@ -32,7 +32,7 @@ var jsonString = [
             },
             "downloads": "2949",
             "img": "../xml/img/Cable_Management/images/1.jpg",
-            "file": "../xml/img/Cable_Management/Cable_Management.zip",
+            "file": "../xml/img/Cable_Management/Cable_Management_Hive.zip",
             "_category": "Others"
          },         
          {
@@ -265,7 +265,7 @@ var jsonStringIndex = [
             },
             "downloads": "2949",
             "img": "xml/img/Cable_Management/images/1.jpg",
-            "file": "xml/img/Cable_Management/Cable_Management.zip",
+            "file": "xml/img/Cable_Management/Cable_Management_Hive.zip",
             "_category": "Others"
          },
          {
