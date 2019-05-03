@@ -250,22 +250,21 @@ select{
 	float: right;
 	width: 45%;
 	height: 335px;
-	margin: 30px;
+	margin: 30px 40px 0 0;
 }
 
 #description > p{
-	margin-bottom: 35px;
+	margin-bottom: 30px;
 }
 
 .download{
+    position: absolute;
 	padding: 7px;
 	font-size: 140%;
 	border-radius: 3px;
 	color: #fff;
 	background-color: #34a853;
-	position: absolute;
-	top: 39%;
-	margin-top: 25px;
+	margin: 324px 0 0 35px;
 }
 
 .download i{
