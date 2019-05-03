@@ -122,6 +122,7 @@ function patternLoad(){
 
 	var myDivPattern = document.getElementById("photo");
 	var myDivText = document.getElementById("description");
+    var download = document.getElementById("download");
 
 	var img = document.createElement("img");
 	var src = object.img;
@@ -138,11 +139,11 @@ function patternLoad(){
 	var desc = object.description;
 	description.innerHTML = desc;
 	myDivText.appendChild(description);
-	var button = document.createElement("a");
-	button.setAttribute("href",object.file);
-	button.setAttribute("class","download");
-	button.innerHTML = 'Download <i class="fa fa-download"></i>';
-	myDivText.appendChild(button);
+	//var button = document.createElement("a");
+	download.setAttribute("href",object.file);
+	//button.setAttribute("class","download");
+	//button.innerHTML = 'Download <i class="fa fa-download"></i>';
+	//myDivText.appendChild(button);
     document.cookie = ';';
 }
 
