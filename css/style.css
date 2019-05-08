@@ -209,10 +209,12 @@ select{
 .headings{
   	position: sticky;
   	top:1%;
+  	width: 30%;
   	float:right;
   	border:1px solid #b8c2cc;
   	border-radius: 4px;
   	margin-top: 50px;
+  	margin-right: 50px;
   	padding: 7px;
 }
 
