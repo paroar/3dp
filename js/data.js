@@ -7,8 +7,8 @@ var jsonString = [
                "year": "2016"
             },
             "downloads": "88000",
-            "img": "../xml/img/Jet_Engine/images/1.webp",
-            "file": "../xml/img/Jet_Engine/3D_Printable_Jet_Engine.zip",
+            "img": "../files/Jet_Engine/images/1.webp",
+            "file": "../files/Jet_Engine/3D_Printable_Jet_Engine.zip",
             "_category": "Engineering"
          },
          {
@@ -19,8 +19,8 @@ var jsonString = [
                "year": "2015"
             },
             "downloads": "949",
-            "img": "../xml/img/Braille_Table/images/1.webp",
-            "file": "../xml/img/Braille_Table/Braille_Table.zip",
+            "img": "../files/Braille_Table/images/1.webp",
+            "file": "../files/Braille_Table/Braille_Table.zip",
             "_category": "Households"
          },         
          {
@@ -31,8 +31,8 @@ var jsonString = [
                "year": "2017"
             },
             "downloads": "2949",
-            "img": "../xml/img/Cable_Management/images/1.webp",
-            "file": "../xml/img/Cable_Management/Cable_Management_Hive.zip",
+            "img": "../files/Cable_Management/images/1.webp",
+            "file": "../files/Cable_Management/Cable_Management_Hive.zip",
             "_category": "Others"
          },         
          {
@@ -43,8 +43,8 @@ var jsonString = [
                "year": "2015"
             },
             "downloads": "68949",
-            "img": "../xml/img/Subaru_Engine/images/1.webp",
-            "file": "../xml/img/Subaru_Engine/Subaru_Engine.zip",
+            "img": "../files/Subaru_Engine/images/1.webp",
+            "file": "../files/Subaru_Engine/Subaru_Engine.zip",
             "_category": "Engineering"
          },
          {
@@ -55,8 +55,8 @@ var jsonString = [
                "year": "2017"
             },
             "downloads": "2949",
-            "img": "../xml/img/Headphone_Stand/images/1.webp",
-            "file": "../xml/img/Headphone_Stand/Headphone_Stand.zip",
+            "img": "../files/Headphone_Stand/images/1.webp",
+            "file": "../files/Headphone_Stand/Headphone_Stand.zip",
             "_category": "Households"
          },
          {
@@ -67,8 +67,8 @@ var jsonString = [
                "year": "2014"
             },
             "downloads": "47000",
-            "img": "../xml/img/Modular_Mounting_System/images/1.webp",
-            "file": "../xml/img/Modular_Mounting_System/Modular_Mounting_System.zip",
+            "img": "../files/Modular_Mounting_System/images/1.webp",
+            "file": "../files/Modular_Mounting_System/Modular_Mounting_System.zip",
             "_category": "Engineering"
          },
          {
@@ -79,8 +79,8 @@ var jsonString = [
                "year": "01"
             },
             "downloads": "275",
-            "img": "../xml/img/Greek_Lamp/images/1.webp",
-            "file": "../xml/img/Greek_Lamp/Greek_Meander_Lamp.zip",
+            "img": "../files/Greek_Lamp/images/1.webp",
+            "file": "../files/Greek_Lamp/Greek_Meander_Lamp.zip",
             "_category": "Households"
          },
          {
@@ -91,8 +91,8 @@ var jsonString = [
                "year": "2018"
             },
             "downloads": "40",
-            "img": "../xml/img/Squishy_Turtle/images/1.webp",
-            "file": "../xml/img/Squishy_Turtle/Squishy_Turtle.zip",
+            "img": "../files/Squishy_Turtle/images/1.webp",
+            "file": "../files/Squishy_Turtle/Squishy_Turtle.zip",
             "_category": "Toys"
          },
          {
@@ -103,8 +103,8 @@ var jsonString = [
                "year": "2019"
             },
             "downloads": "12",
-            "img": "../xml/img/Battery_Holders/images/1.webp",
-            "file": "../xml/img/Battery_Holders/Stackable_Battery_Holders.zip",
+            "img": "../files/Battery_Holders/images/1.webp",
+            "file": "../files/Battery_Holders/Stackable_Battery_Holders.zip",
             "_category": "Household"
          },
          {
@@ -115,8 +115,8 @@ var jsonString = [
                "year": "2018"
             },
             "downloads": "60",
-            "img": "../xml/img/T-Rex_Skeleton/images/1.webp",
-            "file": "../xml/img/T-Rex_Skeleton/T-Rex_Skeleton.zip",
+            "img": "../files/T-Rex_Skeleton/images/1.webp",
+            "file": "../files/T-Rex_Skeleton/T-Rex_Skeleton.zip",
             "_category": "Educational"
          },
          {
@@ -127,8 +127,8 @@ var jsonString = [
                "year": "2020"
             },
             "downloads": "6",
-            "img": "../xml/img/Turboprop_Engine/images/1.webp",
-            "file": "../xml/img/Turboprop_Engine/Turboprop_Engine.zip",
+            "img": "../files/Turboprop_Engine/images/1.webp",
+            "file": "../files/Turboprop_Engine/Turboprop_Engine.zip",
             "_category": "Engineering"
          },
          {
@@ -139,8 +139,8 @@ var jsonString = [
                "year": "2020"
             },
             "downloads": "77",
-            "img": "../xml/img/Robot_Arm/images/1.webp",
-            "file": "../xml/img/Robot_Arm/WE-R2.4_Six-Axis_Robot_Arm.zip",
+            "img": "../files/Robot_Arm/images/1.webp",
+            "file": "../files/Robot_Arm/WE-R2.4_Six-Axis_Robot_Arm.zip",
             "_category": "Engineering"
          },
          {
@@ -151,8 +151,8 @@ var jsonString = [
                "year": "2015"
             },
             "downloads": "957",
-            "img": "../xml/img/Visor_Clip/images/1.webp",
-            "file": "../xml/img/Visor_Clip/Sunglasses_Car_Sun_Visor_Clip.zip",
+            "img": "../files/Visor_Clip/images/1.webp",
+            "file": "../files/Visor_Clip/Sunglasses_Car_Sun_Visor_Clip.zip",
             "_category": "Others"
          },
          {
@@ -163,8 +163,8 @@ var jsonString = [
                "year": "2018"
             },
             "downloads": "1295",
-            "img": "../xml/img/Cryptex/images/1.webp",
-            "file": "../xml/img/Cryptex/Letter-Cryptex.zip",
+            "img": "../files/Cryptex/images/1.webp",
+            "file": "../files/Cryptex/Letter-Cryptex.zip",
             "_category": "Toys"
          },
          {
@@ -176,8 +176,8 @@ var jsonString = [
             },
             "downloads": "808",
             "likes": "1248",
-            "img": "../xml/img/Easter_Eggs/images/1.webp",
-            "file": "../xml/img/Easter_Eggs/Easter_Eggs.zip",
+            "img": "../files/Easter_Eggs/images/1.webp",
+            "file": "../files/Easter_Eggs/Easter_Eggs.zip",
             "_category": "Households"
          },
          {
@@ -189,8 +189,8 @@ var jsonString = [
             },
             "downloads": "",
             "likes": "4290",
-            "img": "../xml/img/Sanding_Stick/images/1.webp",
-            "file": "../xml/img/Sanding_Stick/Customizable_Sanding_Stick.zip",
+            "img": "../files/Sanding_Stick/images/1.webp",
+            "file": "../files/Sanding_Stick/Customizable_Sanding_Stick.zip",
             "_category": "Others"
          },
          {
@@ -201,8 +201,8 @@ var jsonString = [
                "year": "2016"
             },
             "downloads": "3012",
-            "img": "../xml/img/Honeycomb_Vase/images/1.webp",
-            "file": "../xml/img/Honeycomb_Vase/Curved_honeycomb_vase.zip",
+            "img": "../files/Honeycomb_Vase/images/1.webp",
+            "file": "../files/Honeycomb_Vase/Curved_honeycomb_vase.zip",
             "_category": "Households"
          },
          {
@@ -213,8 +213,8 @@ var jsonString = [
                "year": "2018"
             },
             "downloads": "600",
-            "img": "../xml/img/Chainmail/images/1.webp",
-            "file": "../xml/img/Chainmail/Chainmail_-_3D_Printable_Fabric.zip",
+            "img": "../files/Chainmail/images/1.webp",
+            "file": "../files/Chainmail/Chainmail_-_3D_Printable_Fabric.zip",
             "_category": "Others"
          },
          {
@@ -225,8 +225,8 @@ var jsonString = [
                "year": "2016"
             },
             "downloads": "2016",
-            "img": "../xml/img/Filament_Clip/images/1.webp",
-            "file": "../xml/img/Filament_Clip/_1.75mm_Filament_Clip.zip",
+            "img": "../files/Filament_Clip/images/1.webp",
+            "file": "../files/Filament_Clip/_1.75mm_Filament_Clip.zip",
             "_category": "Others"
          }
 ];
@@ -240,8 +240,8 @@ var jsonStringIndex = [
                "year": "2016"
             },
             "downloads": "88000",
-            "img": "xml/img/Jet_Engine/images/1.webp",
-            "file": "xml/img/Jet_Engine/3D_Printable_Jet_Engine.zip",
+            "img": "files/Jet_Engine/images/1.webp",
+            "file": "files/Jet_Engine/3D_Printable_Jet_Engine.zip",
             "_category": "Engineering"
          },         
          {
@@ -252,8 +252,8 @@ var jsonStringIndex = [
                "year": "2015"
             },
             "downloads": "949",
-            "img": "xml/img/Braille_Table/images/1.webp",
-            "file": "xml/img/Braille_Table/Braille_Table.zip",
+            "img": "files/Braille_Table/images/1.webp",
+            "file": "files/Braille_Table/Braille_Table.zip",
             "_category": "Households"
          },         
          {
@@ -264,8 +264,8 @@ var jsonStringIndex = [
                "year": "2017"
             },
             "downloads": "2949",
-            "img": "xml/img/Cable_Management/images/1.webp",
-            "file": "xml/img/Cable_Management/Cable_Management_Hive.zip",
+            "img": "files/Cable_Management/images/1.webp",
+            "file": "files/Cable_Management/Cable_Management_Hive.zip",
             "_category": "Others"
          },
          {
@@ -276,8 +276,8 @@ var jsonStringIndex = [
                "year": "01"
             },
             "downloads": "275",
-            "img": "xml/img/Greek_Lamp/images/1.webp",
-            "file": "xml/img/Greek_Lamp/Greek_Meander_Lamp.zip",
+            "img": "files/Greek_Lamp/images/1.webp",
+            "file": "files/Greek_Lamp/Greek_Meander_Lamp.zip",
             "_category": "Households"
          },
          {
@@ -288,8 +288,8 @@ var jsonStringIndex = [
                "year": "2018"
             },
             "downloads": "40",
-            "img": "xml/img/Squishy_Turtle/images/1.webp",
-            "file": "xml/img/Squishy_Turtle/Squishy_Turtle.zip",
+            "img": "files/Squishy_Turtle/images/1.webp",
+            "file": "files/Squishy_Turtle/Squishy_Turtle.zip",
             "_category": "Toys"
          },
          {
@@ -300,8 +300,8 @@ var jsonStringIndex = [
                "year": "2019"
             },
             "downloads": "12",
-            "img": "xml/img/Battery_Holders/images/1.webp",
-            "file": "xml/img/Battery_Holders/Stackable_Battery_Holders.zip",
+            "img": "files/Battery_Holders/images/1.webp",
+            "file": "files/Battery_Holders/Stackable_Battery_Holders.zip",
             "_category": "Household"
          },
          {
@@ -312,8 +312,8 @@ var jsonStringIndex = [
                "year": "2018"
             },
             "downloads": "60",
-            "img": "xml/img/T-Rex_Skeleton/images/1.webp",
-            "file": "xml/img/T-Rex_Skeleton/T-Rex_Skeleton.zip",
+            "img": "files/T-Rex_Skeleton/images/1.webp",
+            "file": "files/T-Rex_Skeleton/T-Rex_Skeleton.zip",
             "_category": "Educational"
          },
          {
@@ -324,8 +324,8 @@ var jsonStringIndex = [
                "year": "2020"
             },
             "downloads": "6",
-            "img": "xml/img/Turboprop_Engine/images/1.webp",
-            "file": "xml/img/Turboprop_Engine/Turboprop_Engine.zip",
+            "img": "files/Turboprop_Engine/images/1.webp",
+            "file": "files/Turboprop_Engine/Turboprop_Engine.zip",
             "_category": "Engineering"
          },
          {
@@ -336,8 +336,8 @@ var jsonStringIndex = [
                "year": "2020"
             },
             "downloads": "77",
-            "img": "xml/img/Robot_Arm/images/1.webp",
-            "file": "xml/img/Robot_Arm/WE-R2.4_Six-Axis_Robot_Arm.zip",
+            "img": "files/Robot_Arm/images/1.webp",
+            "file": "files/Robot_Arm/WE-R2.4_Six-Axis_Robot_Arm.zip",
             "_category": "Engineering"
          },
          {
@@ -348,8 +348,8 @@ var jsonStringIndex = [
                "year": "2015"
             },
             "downloads": "957",
-            "img": "xml/img/Visor_Clip/images/1.webp",
-            "file": "xml/img/Visor_Clip/Sunglasses_Car_Sun_Visor_Clip.zip",
+            "img": "files/Visor_Clip/images/1.webp",
+            "file": "files/Visor_Clip/Sunglasses_Car_Sun_Visor_Clip.zip",
             "_category": "Others"
          },
          {
@@ -360,8 +360,8 @@ var jsonStringIndex = [
                "year": "2018"
             },
             "downloads": "1295",
-            "img": "xml/img/Cryptex/images/1.webp",
-            "file": "xml/img/Cryptex/Letter-Cryptex.zip",
+            "img": "files/Cryptex/images/1.webp",
+            "file": "files/Cryptex/Letter-Cryptex.zip",
             "_category": "Toys"
          },
          {
@@ -372,8 +372,8 @@ var jsonStringIndex = [
                "year": "2017"
             },
             "downloads": "2949",
-            "img": "xml/img/Headphone_Stand/images/1.webp",
-            "file": "xml/img/Headphone_Stand/Headphone_Stand.zip",
+            "img": "files/Headphone_Stand/images/1.webp",
+            "file": "files/Headphone_Stand/Headphone_Stand.zip",
             "_category": "Households"
          },
          {
@@ -385,8 +385,8 @@ var jsonStringIndex = [
             },
             "downloads": "808",
             "likes": "1248",
-            "img": "xml/img/Easter_Eggs/images/1.webp",
-            "file": "xml/img/Easter_Eggs/Easter_Eggs.zip",
+            "img": "files/Easter_Eggs/images/1.webp",
+            "file": "files/Easter_Eggs/Easter_Eggs.zip",
             "_category": "Households"
          },
          {
@@ -398,8 +398,8 @@ var jsonStringIndex = [
             },
             "downloads": "",
             "likes": "4290",
-            "img": "xml/img/Sanding_Stick/images/1.webp",
-            "file": "xml/img/Sanding_Stick/Customizable_Sanding_Stick.zip",
+            "img": "files/Sanding_Stick/images/1.webp",
+            "file": "files/Sanding_Stick/Customizable_Sanding_Stick.zip",
             "_category": "Others"
          },
          {
@@ -410,8 +410,8 @@ var jsonStringIndex = [
                "year": "2016"
             },
             "downloads": "3012",
-            "img": "xml/img/Honeycomb_Vase/images/1.webp",
-            "file": "xml/img/Honeycomb_Vase/Curved_honeycomb_vase.zip",
+            "img": "files/Honeycomb_Vase/images/1.webp",
+            "file": "files/Honeycomb_Vase/Curved_honeycomb_vase.zip",
             "_category": "Households"
          },
          {
@@ -422,8 +422,8 @@ var jsonStringIndex = [
                "year": "2015"
             },
             "downloads": "68949",
-            "img": "xml/img/Subaru_Engine/images/1.webp",
-            "file": "xml/img/Subaru_Engine/Subaru_Engine.zip",
+            "img": "files/Subaru_Engine/images/1.webp",
+            "file": "files/Subaru_Engine/Subaru_Engine.zip",
             "_category": "Engineering"
          },
          {
@@ -434,8 +434,8 @@ var jsonStringIndex = [
                "year": "2018"
             },
             "downloads": "600",
-            "img": "xml/img/Chainmail/images/1.webp",
-            "file": "xml/img/Chainmail/Chainmail_-_3D_Printable_Fabric.zip",
+            "img": "files/Chainmail/images/1.webp",
+            "file": "files/Chainmail/Chainmail_-_3D_Printable_Fabric.zip",
             "_category": "Others"
          },
          {
@@ -446,8 +446,8 @@ var jsonStringIndex = [
                "year": "2016"
             },
             "downloads": "2016",
-            "img": "xml/img/Filament_Clip/images/1.webp",
-            "file": "xml/img/Filament_Clip/_1.75mm_Filament_Clip.zip",
+            "img": "files/Filament_Clip/images/1.webp",
+            "file": "files/Filament_Clip/_1.75mm_Filament_Clip.zip",
             "_category": "Others"
          }
 ];
