@@ -227,7 +227,8 @@ select{
 }
 
 .headings ol{
-	padding: 0 15px 0 30px;
+	padding: 20px;
+    margin: 0;
 }
 
 /*PATTERN*/
