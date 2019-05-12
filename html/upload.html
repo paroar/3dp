@@ -4,8 +4,9 @@
     <title>3DP</title>
     <link rel="stylesheet" type="text/css" href="../css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <script type="text/javascript" src="../js/categories.js"></script>
 </head>
-<body>
+<body onload="onLoadCategories()">
     <div class="page-wrap" id="page-wrap">
 
         <!--HEADER-->
@@ -29,11 +30,7 @@
                     <h3>Email:</h3><input type="" name="" class="name" required>
                     <h3>Title:</h3><input type="" name="" class="name" required>
                     <h3>Category:</h3>
-                    <input type="radio" name="category" value="Educational" checked="checked"> Educational<br>
-                    <input type="radio" name="category" value="Engineering"> Engineering<br>
-                    <input type="radio" name="category" value="Households"> Households<br>
-                    <input type="radio" name="category" value="Toys"> Toys<br>
-                    <input type="radio" name="category" value="Other"> Others<br>
+                    <select id="categories" onchange="getPatternsSelect(event)"><option disabled selected="">Select Category</option></select>
                     <h3>File:</h3><input type="file" name="" class="name" required>
                     <h3>Description:</h3><textarea class="message" required></textarea><br>
                     <a href="" class="submit1">Submit <i class="far fa-paper-plane"></i></a>

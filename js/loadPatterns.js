@@ -61,6 +61,8 @@ function createCookie(event){
 	Cookies.set('myCookie',value, {path : '/'});
 }
 
+
+//pattern.html
 function patternLoad(){
     var myCookie = Cookies.get('myCookie');
 	var object = {};
