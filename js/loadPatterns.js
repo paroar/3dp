@@ -1,26 +1,15 @@
 var array = JSON.parse(jsonString);
 var arrayIndex = JSON.parse(jsonStringIndex);
 
-function orderByLateDate(param){
-	param.sort(function(a,b){
-		if(a.date.year>b.date.year){
-			return -1;
-		}else if(a.date.year<b.date.year){
-			return 1;
-		}else if(a.date.month>b.date.month){
-			return -1;
-		}else if(a.date.month<b.date.month){
-			return 1;
-		}else{
-			return 0;
-		}
-	});
+function myOnloadIndex(){
+	loadPatterns(4,"popular",arrayIndex,true);
+	loadPatterns(8,"recent",arrayIndex,true);
 }
 
-function orderByDownloads(param){
-	param.sort(function(a,b){
-		return b.downloads-a.downloads;
-	});
+function loadPatternsAll(){
+	loadPatterns(array.length,"subcontent",array,false);
+	removeOptions("categories");
+	onLoadCategories();
 }
 
 function loadPatterns(num,select,param,flag){
@@ -64,17 +53,6 @@ function loadPatterns(num,select,param,flag){
 		var myDiv = document.getElementById(select);
 		myDiv.appendChild(div);
  	}
-}
-
-function myOnloadIndex(){
-	loadPatterns(4,"popular",arrayIndex,true);
-	loadPatterns(8,"recent",arrayIndex,true);
-}
-
-function loadPatternsAll(){
-	loadPatterns(array.length,"subcontent",array,false);
-	removeOptions("categories");
-	onLoadCategories();
 }
 
 function createCookie(event){
