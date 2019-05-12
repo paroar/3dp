@@ -74,10 +74,10 @@ function myOnloadIndex(){
 function loadPatternsAll(){
 	loadPatterns(array.length,"subcontent",array,false);
 	removeOptions("categories");
-	onLoad();
+	onLoadCategories();
 }
 
-function onLoad(){
+/*function onLoad(){
 	var arrayca = ["Engineering","Educational","Households","Toys","Others"];
 	addOptions("categories",arrayca);
 }
@@ -99,7 +99,7 @@ function removeOptions(event){
 	for(var i = 0; i < count-1; i++){
 		select[1].remove();
 	}
-}
+}*/
 
 function createCookie(event){
 	Cookies.clear('myCookie');
