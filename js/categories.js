@@ -1,4 +1,5 @@
 var categoriesArray = ["Engineering","Educational","Households","Toys","Others"];
+
 function onLoadCategories(){
 	addOptions("categories",categoriesArray);
 }

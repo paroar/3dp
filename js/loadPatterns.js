@@ -77,30 +77,6 @@ function loadPatternsAll(){
 	onLoadCategories();
 }
 
-/*function onLoad(){
-	var arrayca = ["Engineering","Educational","Households","Toys","Others"];
-	addOptions("categories",arrayca);
-}
-
-function addOptions(domElement,array){
-	var select = document.getElementById(domElement);
-	var option;
-	for (value in array){
-		option = document.createElement("option");
-		option.text = array[value];
-		option.value = array[value];
-		select.add(option);
-	}
-}
-
-function removeOptions(event){
-	var select = document.getElementById(event);
-	var count = select.length;
-	for(var i = 0; i < count-1; i++){
-		select[1].remove();
-	}
-}*/
-
 function createCookie(event){
 	Cookies.clear('myCookie');
 	var value = event.target.getAttribute('value');
@@ -139,7 +115,7 @@ function patternLoad(){
 }
 
 var count = 1;
-function sig(){
+function nextImg(){
 	if(count == 3){
 		count = 1;
 	}else{
