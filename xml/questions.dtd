@@ -1,0 +1,17 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT questions (question)+>
+<!ATTLIST questions xmlns CDATA #FIXED ''>
+
+<!ELEMENT question (h2,answer)>
+<!ATTLIST question xmlns CDATA #FIXED ''>
+
+<!ELEMENT h2 (#PCDATA)>
+<!ATTLIST h2 xmlns CDATA #FIXED ''>
+
+<!ELEMENT answer (p)+>
+<!ATTLIST answer xmlns CDATA #FIXED ''>
+
+<!ELEMENT p (#PCDATA)>
+<!ATTLIST p xmlns CDATA #FIXED ''>
+
